@@ -1,0 +1,125 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: #161f2dc5 ;
+}
+.container{
+    width: 100%;
+    max-width: 1903px;
+    margin: auto;
+}
+header{
+    background-color: #161F2D;
+    width: 100%;
+    display: inline-block;
+}
+
+.logo{
+    width: 160px;
+    display: inline-block;
+    padding: 10px;
+}
+nav{
+    display: inline-block;
+    float: right;
+    padding: 35px;
+}
+
+li{
+    color: rgb(255, 9, 9);
+    display: inline-block;
+    color: white;
+    padding-right: 40px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.divimagem{
+    text-align: center;
+    width: 100%;
+}
+.imagem1{
+    max-width: 1900px;
+}
+.sectioncontainer{
+    border-radius: 30px;
+    margin: 20px;
+    padding: 60px;
+    background-color: #161F2D;
+    color: white;
+    overflow: hidden;
+}
+h1{
+    color: red;
+    padding-bottom: 50px ;
+    font-size: 30px;
+
+
+}
+.empresaimg{
+    float: left;
+    width: 40%;
+    border: white 3px solid;
+    border-radius: 300px 150px;
+    padding: 10px;
+}
+.h2empresa, p, .empresaimg{
+    display: inline-block;
+
+
+}
+.h2empresa, p{
+    display: block;
+    margin-left: 45%
+
+}
+.h2empresa{
+    font-size: 25px;
+    padding-bottom: 40px;
+
+}
+p{
+    padding-bottom: 30px ;
+    font-size: 17px;
+}
+.h22{
+    color: red;
+    text-align: left;
+    font-size: 30px;
+    padding-bottom: 100px ;
+}
+.produtos{
+
+    display: inline-block;
+    margin: 0 40px;
+    padding: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+
+}
+.containerprodutos{
+    text-align: center;
+}
+.produtos img{
+    border-radius: 50%;
+    display: block;
+    margin-bottom: 40px;
+}
+button{
+    padding: 10px 40px;
+    background: white;
+    border: white 2px solid;
+    border-radius: 10px;
+    color: black;
+    font-size: 17px;
+}
+.containerprodutos2{
+    border: white 4px solid;
+    border-radius: 20%;
+}
