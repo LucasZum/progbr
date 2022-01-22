@@ -30,7 +30,7 @@
                 <h1>TEX Equipamentos Eletrônicos Indústria e Comércio</h1>
                 <img class="empresaimg" src="../img/bg-empresa.png" alt="bg-empresa">
                 <h2 class="h2empresa">A Empresa</h2>
-                <p>A TEX Equipamentos Eletrônicos foi fundada em 1997, na cidade de São Paulo, a partir de um desafio: desenvolver o melhor equipamento brasileiro para testar, a seco, vazamentos em peças manufaturadas.</p>
+                <p id="botao">A TEX Equipamentos Eletrônicos foi fundada em 1997, na cidade de São Paulo, a partir de um desafio: desenvolver o melhor equipamento brasileiro para testar, a seco, vazamentos em peças manufaturadas.</p>
                 <p>Com este desafio em mente e o sonho de se tornar uma referência mundial em testes de vazamento, a empresa desenvolveu, naquele ano, os primeiros equipamentos eletrônicos para testes de estanqueidade: a Geração Zero (G0). Esses produtos são capazes de detectar vazamentos em linhas de montagem dos mais diversos produtos, como radiadores, faróis, reservatórios (água/gasolina), cárter, coletores motores, caixas de câmbio, fogões, ferros de passar, purificadores de água, metais sanitários, torneiras, válvulas, frascos, relógios, bolsas coletoras, cateteres etc.</p>
             </div>
         </section>
@@ -41,19 +41,19 @@
             <div class="containerprodutos containerprodutos2">
                 <div class="produtos">
                     <img src="../img/produtos-em-destaque/teste-hermeticidade-01.jpg" alt="">
-                    <button>Comprar</button>
+                    <button  class="buttom">Comprar</button>
                 </div>
                 <div class="produtos">
                     <img src="../img/produtos-em-destaque/fluxometro-digital-01.jpg" alt="">
-                    <button>Comprar</button>
+                    <button  class="buttom">Comprar</button>
                 </div>
                 <div class="produtos">
                     <img src="../img/produtos-em-destaque/equipamento-estanqueidade-01.jpg" alt="">
-                    <button>Comprar</button>
+                    <button class="buttom">Comprar</button>
                 </div>
                 <div class="produtos">
                     <img src="../img/produtos-em-destaque/aparelho-estanqueidade-01.jpg" alt="">
-                    <button>Comprar</button>
+                    <button onmousedown="" class="buttom">Comprar</button>
                 </div>
             </div>
 
@@ -61,6 +61,29 @@
 
 
     </div>
-    
+    <script>
+
+           
+
+        
+            let b = document.getElementsByClassName("buttom")
+            let blength = b.length
+            let i = 0
+            while(i < blength){
+                b[i].setAttribute("onmouseover", "onover(this)") 
+                i++
+            }
+            function onover(e){
+
+                e.style.backgroundColor = "red"
+
+            }
+
+
+
+
+
+
+    </script>
 </body>
 </html>
