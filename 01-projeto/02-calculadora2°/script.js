@@ -17,10 +17,10 @@ function calcular(){
         let rdelta = Math.sqrt(delta)
         let x1 = (-b - rdelta)/(2*a)
         let x2 = (-b + rdelta)/(2*a)
-        if(delta == 0){
-            res.innerHTML = `<p>Só possui uma Raiz: ${x1}</p>`
+        if(delta === 0){
+            res.innerHTML = `<p>Só possui uma Raiz: ${x1.toFixed(2)}</p>`
         }else{
-            res.innerHTML = `<p>As raizes dessa equação são:<br><br><br>X1 = ${x1}<br>X2 = ${x2}</p>`
+            res.innerHTML = `<p>As raizes dessa equação são:<br><br><br>X1 = ${x1.toFixed(2)}<br>X2 = ${x2.toFixed(2)}</p>`
         }
     }else{
         res.innerHTML = `<p>Não possui Raizes reais`

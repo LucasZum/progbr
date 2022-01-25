@@ -2,8 +2,9 @@
     margin: 0;
     padding: 0;
 }
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,500&display=swap');
 html{
-    font-family: sans-serif;
+    font-family: 'Roboto Mono', monospace;
     background-color: white;
 }
 .container{
@@ -15,10 +16,11 @@ html{
     padding: 50px;
     margin-top: 100px;
     border-radius: 20px;
-    border-top: royalblue 5px solid;
-    border-bottom: royalblue 5px solid;
+    border-top: royalblue 8px solid;
+    border-bottom: royalblue 8px solid;
 }
 button{
+    color: royalblue;
     display: block;
     margin-top: 30px;
     padding: 10px;
@@ -27,8 +29,22 @@ button{
     border: 0;
     border-right: royalblue 3px solid;
     border-bottom: royalblue 3px solid;
+    font-weight: 600;
+}
+button:hover{
+    background-color: royalblue;
+    color: white;
+    display: block;
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 10px;
+    border: 0;
+    border-right: white 3px solid;
+    border-bottom: white 3px solid;
 }
 input{
+    color: royalblue;
     margin-top: 60px;
     width: 70px;
     height: 70px;
@@ -38,15 +54,21 @@ input{
     border-bottom:royalblue 3px solid;
     border-right:royalblue 3px solid;
     margin-right: 30px;
+    font-size: 35px;
 
 }
+input::placeholder{
+    color: rgba(65, 105, 225, 0.699);
+}
+
+
 
 h1{
     margin-bottom: 20px;
     color: royalblue;
 }
 .texto{
-    border-bottom: white 3px solid;
+    border-bottom: royalblue 4px solid;
     padding-bottom: 20px;
 }
 .inputs{
@@ -56,7 +78,8 @@ h1{
 }
 .res{
     margin-top: 60px;
-    border:royalblue 4px solid;
+    border-right:royalblue 6px solid;
+    border-bottom:royalblue 6px solid;
     background-color: white;
     color: black;
     float: right;
