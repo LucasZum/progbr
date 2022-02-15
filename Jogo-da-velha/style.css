@@ -1,0 +1,66 @@
+
+
+
+body{
+    text-align: center;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.linha{
+    font-size: 0;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    border: 10px solid rgb(0, 255, 0);
+    display: inline-block;
+
+}
+
+.q0, .q3, .q6{
+    border-left: none;
+}
+.q6, .q7, .q8{
+    border-bottom: none;
+}
+.q0, .q1, .q2{
+    border-top: none;
+}
+.q2, .q5, .q8{
+    border-right: none;
+}
+
+
+
+.o{
+    position: relative;
+}
+
+.o:after{
+    position: absolute;
+    content: "\2B55";
+    font-size: 50px;
+    line-height: 100px;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.x{
+    position: relative;
+}
+
+.x:after{
+    position: absolute;
+    content: "\274C";
+    font-size: 50px;
+    line-height: 100px;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+}

@@ -5,16 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        button{
+            width: 50px;
+            height: 30px;
+        }
+    </style>
 </head>
 <body>
 
 
 
 
-    <ul id="lista" data-num="15">
-
-    </ul>
+    <form>
+        <input placeholder="nome" type="text" id="nome">
+        <input placeholder="sobre" type="text" id="sobrenome">
+        <input placeholder="email" type="email" id="email">
+        <button id="button"></button>
+    </form>
     
+
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
     <script src="./listas.js"></script>
 </body>
 </html>
